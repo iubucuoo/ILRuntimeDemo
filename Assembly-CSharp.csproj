@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{58EDCA07-7D54-24B6-DCF7-1DC09A50BE61}</ProjectGuid>
+    <ProjectGuid>{B3981B18-0DCC-FDFD-1912-B65963EE00D0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -88,6 +88,33 @@
     <Compile Include="Assets\Samples\ILRuntime\1.6.7\Demo\Scripts\Examples\11_ValueTypeBinding\ValueTypeBindingDemo.cs" />
     <Compile Include="Assets\Samples\ILRuntime\1.6.7\Demo\Scripts\Examples\11_ValueTypeBinding\Vector2Binder.cs" />
     <Compile Include="Assets\Samples\ILRuntime\1.6.7\Demo\Scripts\Examples\11_ValueTypeBinding\Vector3Binder.cs" />
+    <Compile Include="Assets\Samples\ILRuntime\Generated\CLRBindingTestClass_Binding.cs" />
+    <Compile Include="Assets\Samples\ILRuntime\Generated\CLRBindings.cs" />
+    <Compile Include="Assets\Samples\ILRuntime\Generated\CoroutineDemo_Binding.cs" />
+    <Compile Include="Assets\Samples\ILRuntime\Generated\DelegateDemo_Binding.cs" />
+    <Compile Include="Assets\Samples\ILRuntime\Generated\LitJson_JsonMapper_Binding.cs" />
+    <Compile Include="Assets\Samples\ILRuntime\Generated\System_Action_1_String_Binding.cs" />
+    <Compile Include="Assets\Samples\ILRuntime\Generated\System_Boolean_Binding.cs" />
+    <Compile Include="Assets\Samples\ILRuntime\Generated\System_Collections_Generic_Dictionary_2_String_ILTypeInstance_Bin.cs" />
+    <Compile Include="Assets\Samples\ILRuntime\Generated\System_Collections_Generic_Dictionary_2_String_Int32_Binding.cs" />
+    <Compile Include="Assets\Samples\ILRuntime\Generated\System_Collections_Generic_List_1_ILTypeInstance_Binding.cs" />
+    <Compile Include="Assets\Samples\ILRuntime\Generated\System_Collections_Generic_List_1_Int32_Binding.cs" />
+    <Compile Include="Assets\Samples\ILRuntime\Generated\System_Diagnostics_Stopwatch_Binding.cs" />
+    <Compile Include="Assets\Samples\ILRuntime\Generated\System_Int32_Binding.cs" />
+    <Compile Include="Assets\Samples\ILRuntime\Generated\System_NotSupportedException_Binding.cs" />
+    <Compile Include="Assets\Samples\ILRuntime\Generated\System_Object_Binding.cs" />
+    <Compile Include="Assets\Samples\ILRuntime\Generated\System_String_Binding.cs" />
+    <Compile Include="Assets\Samples\ILRuntime\Generated\TestClassBase_Binding.cs" />
+    <Compile Include="Assets\Samples\ILRuntime\Generated\TestDelegateFunction_Binding.cs" />
+    <Compile Include="Assets\Samples\ILRuntime\Generated\TestDelegateMethod_Binding.cs" />
+    <Compile Include="Assets\Samples\ILRuntime\Generated\UnityEngine_Debug_Binding.cs" />
+    <Compile Include="Assets\Samples\ILRuntime\Generated\UnityEngine_GameObject_Binding.cs" />
+    <Compile Include="Assets\Samples\ILRuntime\Generated\UnityEngine_Quaternion_Binding.cs" />
+    <Compile Include="Assets\Samples\ILRuntime\Generated\UnityEngine_Time_Binding.cs" />
+    <Compile Include="Assets\Samples\ILRuntime\Generated\UnityEngine_Vector2_Binding.cs" />
+    <Compile Include="Assets\Samples\ILRuntime\Generated\UnityEngine_Vector3_Binding.cs" />
+    <Compile Include="Assets\Samples\ILRuntime\Generated\UnityEngine_WaitForSeconds_Binding.cs" />
+    <Compile Include="Assets\Script\Demo\AdapterDemo.cs" />
     <Compile Include="Assets\Script\Demo\Demo.cs" />
     <Compile Include="Assets\Script\HotFixMgr.cs" />
     <Reference Include="UnityEngine">
@@ -268,13 +295,13 @@
       <HintPath>D:/UnityOffice/2019.4.3f1/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="ILRuntime.Mono.Cecil">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/PackageCache/com.ourpalm.ilruntime@1.6.7/Plugins/ILRuntime.Mono.Cecil.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/PackageCache/com.ourpalm.ilruntime@1.6.7/Plugins/ILRuntime.Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="ILRuntime.Mono.Cecil.Mdb">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/PackageCache/com.ourpalm.ilruntime@1.6.7/Plugins/ILRuntime.Mono.Cecil.Mdb.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/PackageCache/com.ourpalm.ilruntime@1.6.7/Plugins/ILRuntime.Mono.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="ILRuntime.Mono.Cecil.Pdb">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/PackageCache/com.ourpalm.ilruntime@1.6.7/Plugins/ILRuntime.Mono.Cecil.Pdb.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/PackageCache/com.ourpalm.ilruntime@1.6.7/Plugins/ILRuntime.Mono.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:/UnityOffice/2019.4.3f1/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -631,34 +658,34 @@
       <HintPath>D:/UnityOffice/2019.4.3f1/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="ILRuntime">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/ScriptAssemblies/ILRuntime.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/ScriptAssemblies/ILRuntime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>

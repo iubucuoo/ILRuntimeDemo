@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F7200E85-0A80-D2E5-3357-1783C75BA6AD}</ProjectGuid>
+    <ProjectGuid>{BA42DE1E-F7BB-EE86-E4D8-A63E3B3F5F48}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -265,16 +265,16 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="ILRuntime.Mono.Cecil">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/PackageCache/com.ourpalm.ilruntime@1.6.7/Plugins/ILRuntime.Mono.Cecil.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/PackageCache/com.ourpalm.ilruntime@1.6.7/Plugins/ILRuntime.Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="ILRuntime.Mono.Cecil.Mdb">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/PackageCache/com.ourpalm.ilruntime@1.6.7/Plugins/ILRuntime.Mono.Cecil.Mdb.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/PackageCache/com.ourpalm.ilruntime@1.6.7/Plugins/ILRuntime.Mono.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="ILRuntime.Mono.Cecil.Pdb">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/PackageCache/com.ourpalm.ilruntime@1.6.7/Plugins/ILRuntime.Mono.Cecil.Pdb.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/PackageCache/com.ourpalm.ilruntime@1.6.7/Plugins/ILRuntime.Mono.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:/UnityOffice/2019.4.3f1/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -631,45 +631,45 @@
       <HintPath>D:/UnityOffice/2019.4.3f1/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="ILRuntime">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/ScriptAssemblies/ILRuntime.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/ScriptAssemblies/ILRuntime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>F:/GitHub/ILRuntimeText/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>F:/GitHub/ILRuntimeDemo/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{58EDCA07-7D54-24B6-DCF7-1DC09A50BE61}</Project>
+      <Project>{B3981B18-0DCC-FDFD-1912-B65963EE00D0}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>

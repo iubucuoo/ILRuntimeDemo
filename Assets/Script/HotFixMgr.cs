@@ -4,9 +4,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using ILRuntime.Runtime.Enviorment;
 using System.IO;
+public delegate void SomeDelegate(int a, float b);
+public delegate bool SomeFunction(int a, float b);
 
 public class HotFixMgr : MonoBehaviour
 {
+    System.Func<int, float, bool> act1;
+    System.Action<int, float> act;
     public AppDomain appdomain;
     System.IO.MemoryStream fs;
     System.IO.MemoryStream p;
@@ -79,17 +83,21 @@ public class HotFixMgr : MonoBehaviour
         appdomain.UnityMainThreadID = System.Threading.Thread.CurrentThread.ManagedThreadId;
 #endif
         //这里做一些ILRuntime的注册，HelloWorld示例暂时没有需要注册的
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+        appdomain.DebugService.StartDebugService(56000); //启动调试服务器
+        appdomain.DelegateManager.RegisterFunctionDelegate<int, float, bool>();
+        appdomain.DelegateManager.RegisterDelegateConvertor<SomeDelegate>((action) =>
+        {
+            return new SomeDelegate((a, b) =>
+            {
+                ((System.Action<int, float>)action)(a, b);
+            });
+        });
+        appdomain.DelegateManager.RegisterDelegateConvertor<SomeFunction>((action) =>
+        {
+            return new SomeFunction((a, b) =>
+            {
+                return ((System.Func<int, float, bool>)action)(a, b);
+            });
+        });
     }
 }

@@ -4,3 +4,9 @@ F:\GitHub\ILRuntimeText\Assets\Samples\ILRuntime\1.6.7\Demo\HotFix_Project~\obj\
 F:\GitHub\ILRuntimeText\Assets\Samples\ILRuntime\1.6.7\Demo\HotFix_Project~\obj\Debug\HotFix_Project.csproj.CoreCompileInputs.cache
 F:\GitHub\ILRuntimeText\Assets\Samples\ILRuntime\1.6.7\Demo\HotFix_Project~\obj\Debug\HotFix_Project.dll
 F:\GitHub\ILRuntimeText\Assets\Samples\ILRuntime\1.6.7\Demo\HotFix_Project~\obj\Debug\HotFix_Project.pdb
+F:\GitHub\ILRuntimeDemo\Assets\StreamingAssets\HotFix_Project.dll
+F:\GitHub\ILRuntimeDemo\Assets\StreamingAssets\HotFix_Project.pdb
+F:\GitHub\ILRuntimeDemo\Assets\Samples\ILRuntime\1.6.7\Demo\HotFix_Project~\obj\Debug\HotFix_Project.csprojAssemblyReference.cache
+F:\GitHub\ILRuntimeDemo\Assets\Samples\ILRuntime\1.6.7\Demo\HotFix_Project~\obj\Debug\HotFix_Project.csproj.CoreCompileInputs.cache
+F:\GitHub\ILRuntimeDemo\Assets\Samples\ILRuntime\1.6.7\Demo\HotFix_Project~\obj\Debug\HotFix_Project.dll
+F:\GitHub\ILRuntimeDemo\Assets\Samples\ILRuntime\1.6.7\Demo\HotFix_Project~\obj\Debug\HotFix_Project.pdb
